@@ -21,7 +21,7 @@ Just change `src/portfolio.js` to get your personal portfolio . Feel free to use
 
 To view a live example, **[click here](https://developer-portfolio-6e336.web.app/)**
 
-## Getting Started 🚀
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -32,9 +32,45 @@ npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
 
-## How To Use 🔧
+# How To Deploy 🚀
 
-# Install dependencies
+## Build your frontend first
+
+```
+$ npm run build
+```
+
+## Install Firebase CLI
+
+```
+$ npm install -g firebase-tools
+```
+
+## Log into Firebase
+
+```
+$ firebase login
+```
+
+## Create a Firebase project
+
+## Initialise Firebase project
+
+```
+$ firebase init
+```
+
+## Select project and hosting as option
+
+## Deploy your project
+
+```
+$ firebase deploy
+```
+
+# How To Use 🔧
+
+## Install dependencies
 
 ```
 $ npm install
@@ -43,9 +79,9 @@ $ npm install
 $ npm start
 ```
 
-```
-#### Using Emojis
+### Using Emojis
 
+```
 For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
 
 ```
