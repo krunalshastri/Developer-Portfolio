@@ -16,12 +16,11 @@ export default function ProjectCard({ name, description, stack }) {
           <div className='repo-name-div'>
             <svg
               aria-hidden='true'
-              className='octicon'
+              className='octicon repo-svg'
               height='30'
               role='img'
               viewBox='0 0 12 16'
               width='14'
-              className='repo-svg'
             ></svg>
             <p className='repo-name'>{name}</p>
           </div>

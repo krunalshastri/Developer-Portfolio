@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy, Suspense, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import './Project.css';
 import ProjectCard from '../../components/projectCard/ProjectCard';
 import { projects } from '../../portfolio';
