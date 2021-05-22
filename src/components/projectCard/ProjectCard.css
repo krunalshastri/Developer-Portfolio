@@ -9,7 +9,7 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
 
-.repo-stats {
+.repo-stats .repo-description {
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -49,8 +49,7 @@
 }
 
 .repo-name {
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  white-space: normal;
   color: rgb(36, 41, 46);
   margin-bottom: 0.75rem;
   font-size: 20px;
@@ -58,6 +57,7 @@
   letter-spacing: -0.5px;
   overflow: hidden;
   margin: 0px;
+  text-align: center;
 }
 
 .repo-star-svg {

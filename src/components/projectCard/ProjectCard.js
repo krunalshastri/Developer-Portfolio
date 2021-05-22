@@ -13,17 +13,7 @@ export default function ProjectCard({ name, description, stack }) {
     <Fade bottom duration={1000} distance='20px'>
       <div>
         <div className='repo-card-div'>
-          <div className='repo-name-div'>
-            <svg
-              aria-hidden='true'
-              className='octicon repo-svg'
-              height='30'
-              role='img'
-              viewBox='0 0 12 16'
-              width='14'
-            ></svg>
-            <p className='repo-name'>{name}</p>
-          </div>
+          <p className='repo-name'>{name}</p>
           <div>
             <p className='repo-description'>
               <ul>
